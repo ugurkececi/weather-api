@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(255, 249, 217);
+}
+img{
+
+  border-image: none;
+  height: 1000px;
+  width: 1500px;
+  
+}
+
+.countdown{
+  size: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  text-align: center;
+  max-width: 400px;
+  margin-left: 550px;
+  border: solid 3px;
+  border-color: rgba(5, 172, 255, 0.727);
+  margin-top: -46px;
+}
+.countdown span{
+margin-top: 11px;
+font-size: 16px;
+
+}
+.weather-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-top: 2px;
+}
+
+.weather-button:hover {
+  background-color: #3e8e41;
+}
+.iptvpage{
+  display: inline-block;
+  background-color: #4c63af;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-top: 2px;
+}
